@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        form {
+
+        border: 1px solid rgb(3, 3, 3);
+        padding: 20px;
+        width: 500px;
+        background-color: rgb(155, 151, 155);
+      }
+      input[type="text"], input[type="email"], input[type="password"] {
+        border: 1px solid rgb(8, 8, 8); 
+      }
+
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        }
+
+        th, td {
+        padding: 5px;
+        }
+        table, th  {
+        padding: 25px;
+        }
+      </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my assignment</title>
+</head>
+<body >
+    <form>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" class="input" placeholder="Your first name.."><br>
+        
+        <label for="mname">Middle Name:</label><br>
+        <input type="text" id="mname" name="mname" class="input" placeholder="Your middle name.."><br>
+        
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" class="input" placeholder="Your last name.."><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" class="input" placeholder="Your email.."><br>
+        
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" class="input" placeholder="Enter password.."><br>
+        
+        <label for="radio">Gender:</label><br>
+        <div class="radio">
+          <label><input type="radio" name="gender" value="male">Male</label>
+          <label><input type="radio" name="gender" value="female">Female</label>
+        </div>
+        <br>
+        <label for="Status">Status:</label><br>
+        <input type="checkbox" id="user" name="Status" value="user" required>
+        <label for="user">User</label>
+        <input type="checkbox" id="admin" name="Status" value="admin">
+        <label for="admin">Admin</label><br>
+        <input type="submit" value="Save" class="btn">
+      </form>
+      <table>
+        <tr bgcolor="purple">
+            <th>Name</th>
+            <th>Father Name</th>
+            <th>GPA</th>
+        </tr>
+        <tr>
+            <td>sadia</td>
+            <td>sarwar</td>
+            <td>4.0</td>
+        </tr>
+        <tr>
+            <td>Amna</td>
+            <td>Asif</td>
+            <td>3.0</td>
+        </tr>
+        <tr>
+            <td>Ali</td>
+            <td>Fred</td>
+            <td>3.2</td>
+        </tr>
+        <tr>
+            <td>Noor</td>
+            <td>John</td>
+            <td>3.9</td>
+        </tr>
+        <tr>
+            <td>Alia</td>
+            <td>noor</td>
+            <td>2.7</td>
+        </tr>
+        <tr>
+            <td>Tooba</td>
+            <td>butt</td>
+            <td>3.0</td>
+        </tr>
+        <tr>
+            <td>Noor</td>
+            <td>ali</td>
+            <td>2.5</td>
+        </tr>
+        <tr>
+            <td>Sana</td>
+            <td>khan</td>
+            <td>3.8</td>
+        </tr>
+        <tr>
+            <td>Saad</td>
+            <td>freed</td>
+            <td>4.2</td>
+        </tr>
+        <tr>
+            <td>Laiba </td>
+            <td>asif</td>
+            <td>2.9</td>
+        </tr>
+    </table>
+</body>
+</html>
